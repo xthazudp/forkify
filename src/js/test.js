@@ -1,2 +1,2 @@
 console.log('important module');
-export default 23;
+export default 123456789;
