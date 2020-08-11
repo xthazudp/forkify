@@ -3846,7 +3846,7 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar _test = __webpack_require__(/*! ./test */ \"./src/js/test.js\");\n\nvar _test2 = _interopRequireDefault(_test);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar x = 23; // Global app controller\n\n\nconsole.log('i imported ' + _test2.default + ' from another module called test.js! variable x is ' + x);\n\n//# sourceURL=webpack:///./src/js/index.js?");
+eval("\n\nvar _test = __webpack_require__(/*! ./test */ \"./src/js/test.js\");\n\nvar _test2 = _interopRequireDefault(_test);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar x = 23;\nconsole.log('i imported ' + _test2.default + ' from another module called test.js! variable x is ' + x);\n\n//# sourceURL=webpack:///./src/js/index.js?");
 
 /***/ }),
 
@@ -3858,7 +3858,7 @@ eval("\n\nvar _test = __webpack_require__(/*! ./test */ \"./src/js/test.js\");\n
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nconsole.log('important module');\nexports.default = 123456789;\n\n//# sourceURL=webpack:///./src/js/test.js?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nconsole.log('Imported module');\nexports.default = 1234;\n\n//# sourceURL=webpack:///./src/js/test.js?");
 
 /***/ }),
 
