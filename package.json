@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/xthazudp/forkify#readme",
   "devDependencies": {
-    "babel-core": "^6.26.3", 
+    "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
     "babel-preset-env": "^1.7.0",
     "html-webpack-plugin": "^4.3.0",
@@ -28,7 +28,7 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "babel-polyfill": "^6.26.0"
   }
 }
-
