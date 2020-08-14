@@ -19,6 +19,6 @@ export default class Likes {
     }
 
     getNumLikes (){
-        return this.likes.length();
+        return this.likes.length;
     }
-}
+};
